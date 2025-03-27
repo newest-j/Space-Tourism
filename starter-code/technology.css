@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(assets/technology/background-technology-desktop.jpg);
+    background-repeat: no-repeat;
+    /* height:100vh; */
+    height: 150vh;
+    background-size: cover;
+    font-family: "Barlow Condensed", sans-serif;
+    font-style: normal;
+
+}
+
+#offcanvasNavbar {
+    background-color: #FFFFFF0D;
+    backdrop-filter: blur(20px);
+
+}
+.navbar-nav .nav-link:hover{
+    border-bottom: 3px solid white;
+}
+
+
+#nav {
+    background-color: #FFFFFF0D;
+    backdrop-filter: blur(20px);
+}
+#para1 {
+    color: #FFFFFF;
+    word-spacing: 5px;
+    /* text-align:justify; */
+    /* margin-left: 200px; */
+    /* margin-left: 150px; */
+    /* font-size: 35px; */
+}
+
+#first-para1 {
+    color: #D0D6F9;
+    font-family: "Bellefair", serif;
+
+}
+.para2{
+    color: #D0D6F9;
+}
+.para3{
+    color: #D0D6F9;
+    /* width: 300px; */
+    /* border: 3px solid red; */
+}
+.techimage{
+    /* width: 10px; */
+    height: 400px;
+    margin-right: -11px;
+}
+#border{
+    /* border: 3px solid wheat; */
+    width: 520px;
+}
+.btn{
+    width: 45px;
+    height: 45px;
+}
+#container-gap{
+    gap:200px;
+}
+.techname{
+    font-family: "Bellefair", serif;
+}
+#techbtn .active{
+    background-color: #FFFFFF;
+    color: black;
+}
+
+@media screen and (max-width:824px) {
+    body {
+        background: url(assets/technology/background-technology-tablet.jpg);
+        /* background-repeat: no-repeat; */
+        /* height: 150vh; */
+    }
+    #container-gap{
+        flex-direction: column-reverse;
+    }
+    .techimage{
+        width: 820px;
+        margin-left: -11px;
+        margin-top: 100px;
+    }
+    #border{
+        flex-direction: column;
+        text-align: center;
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* margin-left: 200px; */
+        /* gap: 200px !important; */
+    }
+    #techbtn{
+        /* display: flex; */
+        flex-direction:row !important;
+        /* border: 2px solid red; */
+        justify-content: center;
+        /* gap: 10px;  */
+        align-items: center;
+    }
+    .para3{
+        font-size: 30px;
+        text-align:center;
+    }
+}
+@media screen and (max-width:500px) {
+    #border{
+        margin-left: 200px;
+    }
+}

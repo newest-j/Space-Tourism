@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(assets/crew/background-crew-desktop.jpg);
+    background-repeat: no-repeat;
+    /* height:100vh; */
+    background-size: cover;
+    font-family: "Barlow Condensed", sans-serif;
+    font-style: normal;
+
+}
+
+#offcanvasNavbar {
+    background-color: #FFFFFF0D;
+    backdrop-filter: blur(20px);
+
+}
+
+.navbar-nav .nav-link:hover {
+    border-bottom: 3px solid white;
+}
+
+
+#nav {
+    background-color: #FFFFFF0D;
+    backdrop-filter: blur(20px);
+}
+
+#para1 {
+    color: #FFFFFF;
+    word-spacing: 5px;
+    /* text-align:justify; */
+    /* margin-left: 200px; */
+    /* margin-left: 150px; */
+    /* font-size: 35px; */
+}
+
+#first-para1 {
+    color: #D0D6F9;
+
+}
+
+.width {
+    width: 350px;
+}
+
+.text {
+    color: #D0D6F9;
+}
+
+.text-box {
+    width: 530px;
+    /* border: 2px solid red; */
+}
+
+#name {
+    color: #D0D6F9;
+}
+
+#btn-box {
+    margin-top: 100px;
+}
+
+#btn-box .active {
+    background-color: #FFFFFF;
+}
+
+/* .btn{
+    width: 2px;
+    height: 2px;
+    border-radius: 20px;
+} */
+
+@media screen and (max-width:786px) {
+    body {
+        background: url(assets/crew/background-crew-tablet.jpg);
+        /* background-repeat: no-repeat; */
+        height: 150vh;
+    }
+
+    #box-gap {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        text-align: center;
+    }
+
+    #btn-box {
+        justify-content: center;
+    }
+
+    /* #btn-box .btn{
+        
+    } */
+}
+
+@media screen and (max-width:573px) {
+    body {
+        background: url(assets/crew/background-crew-mobile.jpg);
+        height: 150vh;
+        /* width: 400px; */
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #para1 {
+        margin-left: 200px;
+        /* text-align: center; */
+    }
+
+    .text-box {
+        width: 330px;
+    }
+
+    #crewimage {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:376px) {
+    body {
+        background: url(assets/crew/background-crew-mobile.jpg);
+        height: 150vh;
+        /* width: 400px; */
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #para1 {
+        text-align: center;
+        margin-left: 0px;
+    }
+}
